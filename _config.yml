@@ -1,22 +1,22 @@
-title:            Analytically Speaking
-description:      An exploration of data science and software
+title:            Site Title
+description:      Describe your website here.
 disqus_shortname: 
 reading_time:     true
-words_per_minute: 160
+words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url: 
+url:
 
 # Owner/author information
 owner:
-  name:           Julius Simonelli
+  name:           Your Name
   avatar:         avatar.jpg
-  bio:            "I am a data scientist with an interest in natural language processing"
-  email:          julius.s.simonelli@gmail.com
+  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
+  email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github: jss367
+  github:         
   stackexchange:  
   linkedin:       
   instagram:      
@@ -29,7 +29,7 @@ owner:
 background: 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-100441463-1  
+google_analytics:   
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
@@ -49,10 +49,10 @@ sass:
   style: compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:title/
+permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 7
+paginate: 5
 
 kramdown:
   input: GFM
@@ -87,4 +87,3 @@ exclude:
   - package.json
   - spec
   - tmp
-  - vendor
